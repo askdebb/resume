@@ -52,14 +52,17 @@
         <input type="hidden" name="_subject" value="Project Work">
         <input type="hidden" name="_next" value="https://askdebb.github.io/resume/submitform.html">
 
-        <label for="student_name">Student Name</label> <br>
+        
+        <label for="student_name">Student Full Name</label> <br>
         <input type="text" name="Student Name" id="student_name" required> <br>
         <label for="student_class">Student Class</label> <br>
-        <input type="text" name="Student Class" id="student_class" required> <br>
+        <input type="text" name="Student Class" id="student_class" placeholder="eg: 3A"  required> <br>
         <label for="assignment_question">Assignment Question</label> <br>
         <input type="text" name="Assignment Question" id="assignment_question" required> <br>
+        <label for="email_address">Email Address</label> <br>
+        <input type="email" name="Student Email Address" placeholder="Email Address"><br>
         <label for="message">Message</label><br>
-        <textarea name="Message" id="message" cols="30" rows="10" placeholder="Additional information here..." required></textarea> <br><br>
+        <textarea name="Message" id="message" cols="20" rows="5" placeholder="Additional information here..." required></textarea> <br><br>
         <label for="attachment">Attach the assignment file here:</label><br>
         <input type="file" name="attachment" accept="image/png, image/jpeg" placeholder="Attach the assignment file here:"> <br> <br>
         <button type="submit">Submit</button> 
